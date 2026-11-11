@@ -35,11 +35,13 @@
             this.lblStatus = new System.Windows.Forms.Label();
             this.lblMetrics = new System.Windows.Forms.Label();
             this.timerMetrics = new System.Windows.Forms.Timer(this.components);
+            this.btnMemoryStress = new System.Windows.Forms.Button();
+            this.btnDiskStress = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(319, 201);
+            this.btnStart.Location = new System.Drawing.Point(319, 140);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -50,7 +52,7 @@
             // btnStop
             // 
             this.btnStop.Enabled = false;
-            this.btnStop.Location = new System.Drawing.Point(319, 230);
+            this.btnStop.Location = new System.Drawing.Point(319, 169);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(75, 23);
             this.btnStop.TabIndex = 1;
@@ -77,7 +79,7 @@
             // lblMetrics
             // 
             this.lblMetrics.AutoSize = true;
-            this.lblMetrics.Location = new System.Drawing.Point(338, 285);
+            this.lblMetrics.Location = new System.Drawing.Point(307, 320);
             this.lblMetrics.Name = "lblMetrics";
             this.lblMetrics.Size = new System.Drawing.Size(112, 13);
             this.lblMetrics.TabIndex = 4;
@@ -89,11 +91,33 @@
             this.timerMetrics.Interval = 1000;
             this.timerMetrics.Tick += new System.EventHandler(this.timerMetrics_Tick);
             // 
+            // btnMemoryStress
+            // 
+            this.btnMemoryStress.Location = new System.Drawing.Point(310, 198);
+            this.btnMemoryStress.Name = "btnMemoryStress";
+            this.btnMemoryStress.Size = new System.Drawing.Size(100, 23);
+            this.btnMemoryStress.TabIndex = 5;
+            this.btnMemoryStress.Text = "Нагрузка RAM";
+            this.btnMemoryStress.UseVisualStyleBackColor = true;
+            this.btnMemoryStress.Click += new System.EventHandler(this.btnMemoryStress_Click);
+            // 
+            // btnDiskStress
+            // 
+            this.btnDiskStress.Location = new System.Drawing.Point(299, 227);
+            this.btnDiskStress.Name = "btnDiskStress";
+            this.btnDiskStress.Size = new System.Drawing.Size(120, 23);
+            this.btnDiskStress.TabIndex = 6;
+            this.btnDiskStress.Text = "Нагрузка диска";
+            this.btnDiskStress.UseVisualStyleBackColor = true;
+            this.btnDiskStress.Click += new System.EventHandler(this.btnDiskStress_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnDiskStress);
+            this.Controls.Add(this.btnMemoryStress);
             this.Controls.Add(this.lblMetrics);
             this.Controls.Add(this.lblStatus);
             this.Controls.Add(this.progressBar1);
@@ -114,6 +138,8 @@
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblMetrics;
         private System.Windows.Forms.Timer timerMetrics;
+        private System.Windows.Forms.Button btnMemoryStress;
+        private System.Windows.Forms.Button btnDiskStress;
     }
 }
 
