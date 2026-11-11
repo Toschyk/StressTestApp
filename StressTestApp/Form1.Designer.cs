@@ -41,7 +41,7 @@
             // 
             // btnStart
             // 
-            this.btnStart.Location = new System.Drawing.Point(319, 140);
+            this.btnStart.Location = new System.Drawing.Point(15, 17);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(75, 23);
             this.btnStart.TabIndex = 0;
@@ -52,7 +52,7 @@
             // btnStop
             // 
             this.btnStop.Enabled = false;
-            this.btnStop.Location = new System.Drawing.Point(319, 169);
+            this.btnStop.Location = new System.Drawing.Point(15, 46);
             this.btnStop.Name = "btnStop";
             this.btnStop.Size = new System.Drawing.Size(75, 23);
             this.btnStop.TabIndex = 1;
@@ -62,7 +62,7 @@
             // 
             // progressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(261, 259);
+            this.progressBar1.Location = new System.Drawing.Point(15, 133);
             this.progressBar1.Name = "progressBar1";
             this.progressBar1.Size = new System.Drawing.Size(189, 23);
             this.progressBar1.TabIndex = 2;
@@ -70,7 +70,7 @@
             // lblStatus
             // 
             this.lblStatus.AutoSize = true;
-            this.lblStatus.Location = new System.Drawing.Point(258, 285);
+            this.lblStatus.Location = new System.Drawing.Point(12, 159);
             this.lblStatus.Name = "lblStatus";
             this.lblStatus.Size = new System.Drawing.Size(68, 13);
             this.lblStatus.TabIndex = 3;
@@ -79,7 +79,7 @@
             // lblMetrics
             // 
             this.lblMetrics.AutoSize = true;
-            this.lblMetrics.Location = new System.Drawing.Point(307, 320);
+            this.lblMetrics.Location = new System.Drawing.Point(12, 172);
             this.lblMetrics.Name = "lblMetrics";
             this.lblMetrics.Size = new System.Drawing.Size(112, 13);
             this.lblMetrics.TabIndex = 4;
@@ -93,7 +93,7 @@
             // 
             // btnMemoryStress
             // 
-            this.btnMemoryStress.Location = new System.Drawing.Point(310, 198);
+            this.btnMemoryStress.Location = new System.Drawing.Point(15, 75);
             this.btnMemoryStress.Name = "btnMemoryStress";
             this.btnMemoryStress.Size = new System.Drawing.Size(100, 23);
             this.btnMemoryStress.TabIndex = 5;
@@ -103,7 +103,7 @@
             // 
             // btnDiskStress
             // 
-            this.btnDiskStress.Location = new System.Drawing.Point(299, 227);
+            this.btnDiskStress.Location = new System.Drawing.Point(15, 104);
             this.btnDiskStress.Name = "btnDiskStress";
             this.btnDiskStress.Size = new System.Drawing.Size(120, 23);
             this.btnDiskStress.TabIndex = 6;
@@ -115,7 +115,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(221, 214);
             this.Controls.Add(this.btnDiskStress);
             this.Controls.Add(this.btnMemoryStress);
             this.Controls.Add(this.lblMetrics);
