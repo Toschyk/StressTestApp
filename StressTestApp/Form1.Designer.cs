@@ -43,7 +43,7 @@
             // 
             this.btnStart.Location = new System.Drawing.Point(15, 17);
             this.btnStart.Name = "btnStart";
-            this.btnStart.Size = new System.Drawing.Size(75, 23);
+            this.btnStart.Size = new System.Drawing.Size(189, 23);
             this.btnStart.TabIndex = 0;
             this.btnStart.Text = "Запустить расчет";
             this.btnStart.UseVisualStyleBackColor = true;
@@ -54,7 +54,7 @@
             this.btnStop.Enabled = false;
             this.btnStop.Location = new System.Drawing.Point(15, 46);
             this.btnStop.Name = "btnStop";
-            this.btnStop.Size = new System.Drawing.Size(75, 23);
+            this.btnStop.Size = new System.Drawing.Size(189, 23);
             this.btnStop.TabIndex = 1;
             this.btnStop.Text = "Остановить";
             this.btnStop.UseVisualStyleBackColor = true;
@@ -95,7 +95,7 @@
             // 
             this.btnMemoryStress.Location = new System.Drawing.Point(15, 75);
             this.btnMemoryStress.Name = "btnMemoryStress";
-            this.btnMemoryStress.Size = new System.Drawing.Size(100, 23);
+            this.btnMemoryStress.Size = new System.Drawing.Size(189, 23);
             this.btnMemoryStress.TabIndex = 5;
             this.btnMemoryStress.Text = "Нагрузка RAM";
             this.btnMemoryStress.UseVisualStyleBackColor = true;
@@ -105,7 +105,7 @@
             // 
             this.btnDiskStress.Location = new System.Drawing.Point(15, 104);
             this.btnDiskStress.Name = "btnDiskStress";
-            this.btnDiskStress.Size = new System.Drawing.Size(120, 23);
+            this.btnDiskStress.Size = new System.Drawing.Size(189, 23);
             this.btnDiskStress.TabIndex = 6;
             this.btnDiskStress.Text = "Нагрузка диска";
             this.btnDiskStress.UseVisualStyleBackColor = true;
